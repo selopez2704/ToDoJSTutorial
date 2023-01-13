@@ -23,7 +23,7 @@ module.exports = {
                 use: ["style-loader", "css-loader"]
             },
             {
-                test:/estilos.css$/,
+                test:/styles.css$/,
                 use:[MiniCssExtractPlugin.loader , "css-loader"]
             },
             {
